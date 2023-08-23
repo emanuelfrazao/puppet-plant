@@ -42,7 +42,11 @@ Using ***ref-1.***, we can connect to an existing Chrome window, and then use pu
 
 ## usage
 * `npm install` to install the packages
+* open chrome in dev-mode according to ***ref-1.***
+* copy-paste the retrieved ws url into `.env` file
+* open the browser and log in to the website
+* `node app.js` to run the script
 
 ## refs
 
-1. [Connecting web-driver to an existing window](https://medium.com/@jaredpotter1/connecting-puppeteer-to-existing-chrome-window-8a10828149e0) — medium
+1. [Connecting web-driver to an existing window](https://medium.com/@jaredpotter1/connecting-puppeteer-to-existing-chrome-window-8a10828149e0)
